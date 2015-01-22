@@ -1,18 +1,1 @@
-        public void run()
-        {
-          Uteis.cooldown.remove(Uteis.this);
-          Uteis.this.sendMessage(Main.prefix + "O kit §a§l" + Uteis.kit.reconhecerKit(Uteis.this) + " §7esta pronto para uso !");
-          Uteis.this.setAllowFlight(false); // fica em vermelho. obs: codigo do meu amigo.
-          Uteis.this.setFlying(false);// fica em vermelho. obs: codigo do meu amigo.
-          Uteis.this.playSound(Uteis.this.getLocation(), Sound.ANVIL_LAND, 4.0F, 4.0F); // getLocation fica em vermelho
-        }
-      }, seconds * 40);
-  }
-  
-  public static String setarCooldown(Player p)
-  {
-    long cooldownLength = ((Long)cooldown.get(p)).longValue();
-    long left = (cooldownLength - System.currentTimeMillis()) / 1000L;
-    return 
-      left; // aqui fica em vermelho tbm
-  }
+Nada
